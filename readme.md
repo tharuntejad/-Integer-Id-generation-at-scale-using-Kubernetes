@@ -67,7 +67,7 @@ Kubernetes guarantees **unique pod names**, allowing us to use the pod's ordinal
 # Extract the machine ID from the pod name  
 MACHINE_ID = int(re.search(r"\d+", POD_NAME).group())  
   
-# Initialize snowflkae id generator  
+# Initialize snowflake id generator  
 integer_id_generator = SnowflakeGenerator(instance=MACHINE_ID, epoch=EPOCH)
 ```
 #### Endpoints
