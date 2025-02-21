@@ -175,12 +175,7 @@ go build -o id-generator
 
 
 **Testing:**  
-You can verify both versions by running:
-
-```bash
-python testing/service_test.py
-```
-
+You can verify both versions by running: `testing/service_test.py`
 Or by visiting the **Swagger documentation** for the Python service at:  
 [http://localhost:8000/docs](http://localhost:8000/docs)
 
