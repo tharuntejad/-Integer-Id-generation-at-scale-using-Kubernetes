@@ -260,7 +260,7 @@ sudo kubectl apply -f service.yaml
 sudo kubectl apply -f ingress.yaml
 ```
 
-### **8.  Monitoring & Scaling **
+### **8.  Monitoring & Scaling**
 
 ```bash
 # View the pods in the cluster
