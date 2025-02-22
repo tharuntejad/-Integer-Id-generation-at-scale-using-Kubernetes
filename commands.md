@@ -114,5 +114,5 @@ docker image rm id-generator
 
 #### Uninstall k3s
 ```bash
-/usr/local/bin/k3s-uninstall.sh
+sudo /usr/local/bin/k3s-uninstall.sh
 ```
